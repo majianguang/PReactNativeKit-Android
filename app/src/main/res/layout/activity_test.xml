@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hybrid.prnkit_android.TestActivity">
+
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:padding="10dp"
+        android:text="test1"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        />
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_load"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="Test2"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        />
+
+</RelativeLayout>
